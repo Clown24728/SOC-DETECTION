@@ -34,6 +34,15 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 - Configure log forwarding between the VM and Splunk Enterprise over the standard Splunk-to-Splunk port (9997).
 - Verify that logs are actually being generated, forwarded, and searchable — not just that services report as running.
 - Diagnose and document any issues encountered along the way, rather than only presenting a clean end result.
+  ## Tools Used
+
+| Component                  | Technology                              |
+|----------------------------|-----------------------------------------|
+| Monitored Endpoint         | Windows 11 (VMware Workstation)         |
+| SIEM Platform              | Splunk Enterprise (host machine)        |
+| Log Forwarding Agent       | Splunk Universal Forwarder              |
+| Endpoint Telemetry         | Sysmon (SwiftOnSecurity configuration)  |
+| Future Attack Simulation   | Kali Linux                              |
   
 
 
