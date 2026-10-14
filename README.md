@@ -11,6 +11,7 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 
 - [Project Overview](#project-overview)
 - [General Objectives](#general-objectives)
+- [Phase 1 Objective](#objective)
 - [Tools Used](#tools-used)
 - [Lab Architecture](#lab-architecture)
 - [Walkthrough](#walkthrough)
@@ -24,7 +25,17 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 - Map observation attack stages to the MITRE ATT&CK framework.
 - Create practical detection rules,such as sigma rule or SIEM queries to identify relevant activity earlier.
 - Develop an actionable incidence response plan.
-- Present the findings in a professional final presentation.   
+- Present the findings in a professional final presentation.
+  # Phase 1 objective
+- Set up a Windows 11 virtual machine in VMware Workstation to serve as the monitored endpoint.
+- Install and configure Splunk Enterprise on the host machine to act as the central SIEM.
+- Install the Splunk Universal Forwarder on the Windows VM to transmit log data to Splunk.
+- Install Sysmon on the Windows VM with the SwiftOnSecurity configuration for high-quality, low-noise event logging.
+- Configure log forwarding between the VM and Splunk Enterprise over the standard Splunk-to-Splunk port (9997).
+- Verify that logs are actually being generated, forwarded, and searchable — not just that services report as running.
+- Diagnose and document any issues encountered along the way, rather than only presenting a clean end result.
+  
+
 
   
   
