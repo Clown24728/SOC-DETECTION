@@ -10,12 +10,23 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Objectives](#objectives)
+- [General Objectives](#general-objectives)
 - [Tools Used](#tools-used)
 - [Lab Architecture](#lab-architecture)
 - [Walkthrough](#walkthrough)
 - [Results (So Far)](#results-so-far)
 - [Skills Demonstrated](#skills-demonstrated)
-- [Next Steps](#next-steps)  
+- [Next Steps](#next-steps)
+# General Objective   
+- Design a realistic lab architecture representing the victim organization.
+- Simulate a ransomware incident in the lab and collect relevant digital evidence.
+- identify the document key indicators of compromise.
+- Map observation attack stages to the MITRE ATT&CK framework.
+- Create practical detection rules,such as sigma rule or SIEM queries to identify relevant activity earlier.
+- Develop an actionable incidence response plan.
+- Present the findings in a professional final presentation.   
+
+  
+  
 
 
