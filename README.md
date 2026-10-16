@@ -41,7 +41,6 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 | Monitored Endpoint         | Windows 11 (VMware Workstation)         |
 | SIEM Platform              | Splunk Enterprise (host machine)        |
 | Log Forwarding Agent       | Splunk Universal Forwarder              |
-| Endpoint Telemetry         | Sysmon (SwiftOnSecurity configuration)  |
-| Future Attack Simulation   | Kali Linux                              |    
+| Endpoint Telemetry         | Sysmon (SwiftOnSecurity configuration)  |   
 # lab architecture  
 The diagram below shows how the components in this lab relate to one another. The Windows 11 VM sits inside VMware Workstation and runs two things side by side: Sysmon, which watches the operating system and generates detailed telemetry (process creation, file creation, network connections, and more), and the Splunk Universal Forwarder, which is responsible for reading both Sysmon's event log and the standard Windows Event Logs (Security, System, Application) and shipping that data off the VM. The Forwarder sends everything over TCP port 9997 to Splunk Enterprise, which runs on the host machine outside the VM and is responsible for indexing the data and making it searchable.
