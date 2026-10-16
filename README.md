@@ -1,6 +1,6 @@
 # SOC-DETECTION
 Detection, Investigation, and Response to modern ransomware attacks in a Hybrid Enterprise     
-AUTHOR : ALATISHE IDRIS OLAYIWOLA   
+JUNE COHORT PLURACODE   
 DATE : OCTOBER 14th 2026    
 # Background & Problem   
 Ransomware continues to rank among the most destructive cyber threats in 2026.Modern campaigns frequently combine double or triple extortion ,AI generated phishing, living-off-the-land techniques, and rapid encryption of both on-premises and cloud assets.  
