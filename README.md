@@ -52,10 +52,10 @@ Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machi
 
 # SOC Home Lab – Phase 1
 
-**Windows 10 Endpoint → Splunk Enterprise Pipeline**
+**Windows 11 Endpoint → Splunk Enterprise Pipeline**
 
 ![Figure 1](images/log-flow-diagram.png)  
-*Figure 1. Log flow from the Windows 10 VM to Splunk Enterprise on the host machine.*
+*Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.*
 
 # Walkthrough
 
@@ -71,3 +71,6 @@ This project is documented as a set of linked, focused write-ups rather than one
 - General Windows Event Log data (Security, System) is confirmed flowing into Splunk and is fully searchable
 - Sysmon is confirmed to be correctly installed and actively generating detailed local telemetry (Event ID 1 and others), using the SwiftOnSecurity configuration
 - event view is used for logs; forwarding to Splunk is in progress / resolved (update this bullet as needed)
+# Splunk Enterprise Installation (HOST MACHINE)    
+
+← [Back to project overview](../README.md)  
