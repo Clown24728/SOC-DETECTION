@@ -54,7 +54,7 @@ Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machi
 
 This project is documented as a set of linked, focused write-ups rather than one long file. Each one covers a single stage of the pipeline in full detail, with screenshots.
   
-1. [Splunk Enterprise Installation](docs/01-splunk-enterprise-installation.md) — standing up the SIEM on the host machine  
+1. [Splunk Enterprise Installation](docs/01-Splunk-Enterprise-Installation.md) — standing up the SIEM on the host machine  
 3. [Splunk Universal Forwarder Installation & Configuration](docs/02-universal-forwarder-config.md) — connecting the VM to Splunk Enterprise  
 3. [Sysmon Installation & Configuration](docs/03-sysmon-installation.md) — adding high-quality endpoint telemetry with the SwiftOnSecurity config  
 4. [Troubleshooting: Event view Issue](docs/04-troubleshooting-event-forwarding.md) — a real configuration issue found and worked through during validation
