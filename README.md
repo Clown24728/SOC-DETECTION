@@ -48,4 +48,26 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 # lab architecture  
 The diagram below shows how the components in this lab relate to one another. The Windows 11 VM sits inside VMware Workstation and runs two things side by side: Sysmon, which watches the operating system and generates detailed telemetry (process creation, file creation, network connections, and more), and the Splunk Universal Forwarder, which is responsible for reading both Sysmon's event log and the standard Windows Event Logs (Security, System, Application) and shipping that data off the VM. The Forwarder sends everything over TCP port 9997 to Splunk Enterprise, which runs on the host machine outside the VM and is responsible for indexing the data and making it searchable.
 <img width="1580" height="819" alt="image" src="https://github.com/user-attachments/assets/ec28a9b7-ff5e-4bca-9986-c407b1aad13a" />    
-Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.
+Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.  
+
+# SOC Home Lab – Phase 1
+
+**Windows 10 Endpoint → Splunk Enterprise Pipeline**
+
+![Figure 1](images/log-flow-diagram.png)  
+*Figure 1. Log flow from the Windows 10 VM to Splunk Enterprise on the host machine.*
+
+# Walkthrough
+
+This project is documented as a set of linked, focused write-ups rather than one long file. Each one covers a single stage of the pipeline in full detail, with screenshots.
+  
+1. [Splunk Enterprise Installation](docs/01-splunk-enterprise-installation.md) — standing up the SIEM on the host machine  
+3. [Splunk Universal Forwarder Installation & Configuration](docs/02-universal-forwarder-config.md) — connecting the VM to Splunk Enterprise  
+3. [Sysmon Installation & Configuration](docs/03-sysmon-installation.md) — adding high-quality endpoint telemetry with the SwiftOnSecurity config  
+4. [Troubleshooting: Event view Issue](docs/04-troubleshooting-event-forwarding.md) — a real configuration issue found and worked through during validation
+
+# Results (So Far)
+
+- General Windows Event Log data (Security, System) is confirmed flowing into Splunk and is fully searchable
+- Sysmon is confirmed to be correctly installed and actively generating detailed local telemetry (Event ID 1 and others), using the SwiftOnSecurity configuration
+- event view is used for logs; forwarding to Splunk is in progress / resolved (update this bullet as needed)
