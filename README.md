@@ -69,7 +69,6 @@ This project is documented as a set of linked, focused write-ups rather than one
 
 - SIEM deployment and configuration (Splunk Enterprise)
 - Windows Universal Forwarder setup, configuration, and troubleshooting
-- Sysmon deployment using a community-maintained configuration (SwiftOnSecurity)
 - Log forwarding architecture and configuration (TCP 9997, inputs.conf)
 - SPL (Search Processing Language) search fundamentals for validating data ingestion
 - Systematic, evidence-based troubleshooting of a log pipeline issue rather than guesswork
