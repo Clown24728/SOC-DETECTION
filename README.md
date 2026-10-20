@@ -48,14 +48,7 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 # lab architecture  
 The diagram below shows how the components in this lab relate to one another. The Windows 11 VM sits inside VMware Workstation and runs two things side by side: Sysmon, which watches the operating system and generates detailed telemetry (process creation, file creation, network connections, and more), and the Splunk Universal Forwarder, which is responsible for reading both Sysmon's event log and the standard Windows Event Logs (Security, System, Application) and shipping that data off the VM. The Forwarder sends everything over TCP port 9997 to Splunk Enterprise, which runs on the host machine outside the VM and is responsible for indexing the data and making it searchable.
 <img width="1580" height="819" alt="image" src="https://github.com/user-attachments/assets/ec28a9b7-ff5e-4bca-9986-c407b1aad13a" />    
-Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.  
-
-# SOC Home Lab – Phase 1
-
-**Windows 11 Endpoint → Splunk Enterprise Pipeline**
-
-![Figure 1](images/log-flow-diagram.png)  
-*Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.*
+Figure 1. Log flow from the Windows 11 VM to Splunk Enterprise on the host machine.    
 
 # Walkthrough
 
