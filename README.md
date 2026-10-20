@@ -64,8 +64,19 @@ This project is documented as a set of linked, focused write-ups rather than one
 - General Windows Event Log data (Security, System) is confirmed flowing into Splunk and is fully searchable
 - Sysmon is confirmed to be correctly installed and actively generating detailed local telemetry (Event ID 1 and others), using the SwiftOnSecurity configuration
 - event view is used for logs; forwarding to Splunk is in progress / resolved (update this bullet as needed)
-# Splunk Enterprise Installation (HOST MACHINE)    
 
-← [Back to project overview](../README.md)    
+## Skills Demonstrated
 
-With the endpoint in place, the next step was standing up the SIEM that would receive and analyze its logs. Splunk Enterprise was downloaded and installed directly on the host machine rather than inside a VM, so that it could act as a stable, always-available collection point regardless of what was happening inside the lab's virtual machines. During installation, administrator credentials were created for the instance, and after setup completed, a login to the Splunk web interface was used to confirm the installation had succeeded and the platform was ready to receive data.
+- SIEM deployment and configuration (Splunk Enterprise)
+- Windows Universal Forwarder setup, configuration, and troubleshooting
+- Sysmon deployment using a community-maintained configuration (SwiftOnSecurity)
+- Log forwarding architecture and configuration (TCP 9997, inputs.conf)
+- SPL (Search Processing Language) search fundamentals for validating data ingestion
+- Systematic, evidence-based troubleshooting of a log pipeline issue rather than guesswork
+- Clear technical documentation of both successes and unresolved issues
+
+## Next Steps
+
+- Resolve the Sysmon-to-Splunk forwarding issue and confirm Sysmon events are fully searchable in Splunk
+- **Phase 2**: introduce the Kali Linux VM to simulate attacks against the Windows endpoint
+- Build detection searches, correlation rules, and dashboards in Splunk based on the telemetry captured from simulated attack activity
