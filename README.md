@@ -55,7 +55,7 @@ The diagram below shows how the components in this lab relate to one another. Th
 This project is documented as a set of linked, focused write-ups rather than one long file. Each one covers a single stage of the pipeline in full detail, with screenshots.
   
 1. [Splunk Enterprise Installation](Splunk%20Enterprise%20Installation.md) — standing up the SIEM on the host machine  
-3. [Splunk Universal Forwarder Installation & Configuration](Splunk%20Universal%20Forwarder%20Installation%20config.md) — connecting the VM to Splunk Enterprise  
+3. [Splunk Universal Forwarder Installation & Configuration](Splunk%20Universal%20Forwarder%20Installation%20&%20configuration.md) — connecting the VM to Splunk Enterprise  
 3. [Sysmon Installation & Configuration](docs/03-sysmon-installation.md) — adding high-quality endpoint telemetry with the SwiftOnSecurity config  
 4. [Troubleshooting: Event view Issue](docs/04-troubleshooting-event-forwarding.md) — a real configuration issue found and worked through during validation
 
