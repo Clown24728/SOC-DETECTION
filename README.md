@@ -64,8 +64,4 @@ This project is documented as a set of linked, focused write-ups rather than one
 - General Windows Event Log data (Security, System) is confirmed flowing into Splunk and is fully searchable
 - Sysmon is confirmed to be correctly installed and actively generating detailed local telemetry (Event ID 1 and others), using the SwiftOnSecurity configuration
 - event view is used for logs; forwarding to Splunk is in progress / resolved (update this bullet as needed)
-# Splunk Enterprise Installation (HOST MACHINE)    
 
-← [Back to project overview](../README.md)    
-
-With the endpoint in place, the next step was standing up the SIEM that would receive and analyze its logs. Splunk Enterprise was downloaded and installed directly on the host machine rather than inside a VM, so that it could act as a stable, always-available collection point regardless of what was happening inside the lab's virtual machines. During installation, administrator credentials were created for the instance, and after setup completed, a login to the Splunk web interface was used to confirm the installation had succeeded and the platform was ready to receive data.
