@@ -27,7 +27,7 @@ With the endpoint in place, the next step was standing up the SIEM that would re
 <p><em>Figure 6. Splunk Enterprise Installation home page, confirming successful Installation </em></p> 
 </div> 
 
-**Next:** [Splunk Universal Forwarder Installation & Configuration →](Splunk%20Universal%20Forwarder%20Installation%20&%20configuration.md)
+**Next:** [Splunk Universal Forwarder Installation & Configuration →](Splunk%20Universal%20Forwarder%20Installation%20&%20Configuration.md)
 
 
  
