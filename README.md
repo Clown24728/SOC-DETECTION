@@ -9,15 +9,15 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 # The lab is built entirely on a single physical host using VMware Workstation. The Windows 11 virtual machine represents the monitored endpoint, while Splunk Enterprise runs directly on the host machine and plays the role of the central SIEM.This document covers Phase 1 only: getting visibility working. Later phases will build on this foundation.  
 ## Table of Contents
 
-- [Project Overview](#project%20overview)
-- [General Objectives](#general-objectives)
-- [Phase 1 Objective](#objective)
-- [Tools Used](#tools-used)
-- [Lab Architecture](#lab-architecture)
-- [Walkthrough](#walkthrough)
-- [Results (So Far)](#results-so-far)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Next Steps](#next-steps)
+- [Project Overview](project%20overview)
+- [General Objectives](general%20objectives)
+- [Phase 1 Objective](Phase%201%20objective)
+- [Tools Used](tools%20used)
+- [Lab Architecture](lab%20architecture)
+- [Walkthrough](walkthrough%20)
+- [Results (So Far)](Results%20so%20far)
+- [Skills Demonstrated](skills%20demonstrated)
+- [Next Steps](next%20steps)
 # General Objective   
 - Design a realistic lab architecture representing the victim organization.
 - Simulate a ransomware incident in the lab and collect relevant digital evidence.
@@ -56,8 +56,8 @@ This project is documented as a set of linked, focused write-ups rather than one
   
 1. [Splunk Enterprise Installation](Splunk%20Enterprise%20Installation.md) — standing up the SIEM on the host machine  
 3. [Splunk Universal Forwarder Installation & Configuration](Splunk%20Universal%20Forwarder%20Installation%20&%20Configuration.md) — connecting the VM to Splunk Enterprise  
-3. [Sysmon Installation & Configuration](docs/03-sysmon-installation.md) — adding high-quality endpoint telemetry with the SwiftOnSecurity config  
-4. [Troubleshooting: Event view Issue](docs/04-troubleshooting-event-forwarding.md) — a real configuration issue found and worked through during validation
+3. [Sysmon Installation & Configuration](sysmon%20installation.md) — adding high-quality endpoint telemetry with the SwiftOnSecurity config  
+4. [Troubleshooting: Event view Issue](Troubleshooting%20event%20forwarding.md) — a real configuration issue found and worked through during validation
 
 # Results (So Far)
 
