@@ -9,7 +9,7 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 # The lab is built entirely on a single physical host using VMware Workstation. The Windows 11 virtual machine represents the monitored endpoint, while Splunk Enterprise runs directly on the host machine and plays the role of the central SIEM.This document covers Phase 1 only: getting visibility working. Later phases will build on this foundation.  
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#project%20overview)
 - [General Objectives](#general-objectives)
 - [Phase 1 Objective](#objective)
 - [Tools Used](#tools-used)
