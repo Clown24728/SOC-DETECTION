@@ -9,15 +9,16 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 # The lab is built entirely on a single physical host using VMware Workstation. The Windows 11 virtual machine represents the monitored endpoint, while Splunk Enterprise runs directly on the host machine and plays the role of the central SIEM.This document covers Phase 1 only: getting visibility working. Later phases will build on this foundation.  
 ## Table of Contents
 
-- [Project Overview](project%20overview)
-- [General Objectives](general%20objectives)
-- [Phase 1 Objective](Phase%201%20objective)
-- [Tools Used](tools%20used)
-- [Lab Architecture](lab%20architecture)
-- [Walkthrough](walkthrough%20)
-- [Results (So Far)](Results%20so%20far)
-- [Skills Demonstrated](skills%20demonstrated)
-- [Next Steps](next%20steps)
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Tools Used](#tools-used)
+- [Lab Architecture](#lab-architecture)
+- [Walkthrough](#walkthrough)
+- [Results (So Far)](#results-so-far)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Next Steps](#next-steps)
 # General Objective   
 - Design a realistic lab architecture representing the victim organization.
 - Simulate a ransomware incident in the lab and collect relevant digital evidence.
