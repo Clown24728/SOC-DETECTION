@@ -44,11 +44,10 @@ Configuration alone does not guarantee a working connection, so this was verifie
 <div align="Center">
 <img width="800" height="600" alt="Screenshot 2026-10-13 202616" src="https://github.com/user-attachments/assets/05d5ba1f-b63a-45f0-8919-804a9376b097" />  
 <p><em>Figure 12  Command-line confirmation of an active forward from the Windows VM.</em></p>  
-</div>    
+</div>      
 
-
+<img width="1440" height="900" alt="Screenshot 2026-10-24 at 1 03 50 pm" src="https://github.com/user-attachments/assets/c61f1e65-ff25-4be5-8c14-12d8935bef1e" />
 <div align="Center">
-<img width="1440" height="900" alt="Screenshot 2026-10-13 at 10 58 21 pm" src="https://github.com/user-attachments/assets/ee9c864e-2ad7-4c51-aa87-b85d23a6c796" />   
 <p><em>Figure13 Splunk Enterprise search confirming forwarder activity (`index=_internal sourcetype=splunkd`).</em></p>   
 </div>    
 
