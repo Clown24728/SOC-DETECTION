@@ -49,6 +49,7 @@ Configuration alone does not guarantee a working connection, so this was verifie
 <img width="1440" height="900" alt="Screenshot 2026-10-24 at 1 03 50 pm" src="https://github.com/user-attachments/assets/c61f1e65-ff25-4be5-8c14-12d8935bef1e" />
 <div align="Center">
 <p><em>Figure13 Splunk Enterprise search confirming forwarder activity (`index=_internal sourcetype=splunkd`).</em></p>   
-</div>    
+</div>      
+
 
 
