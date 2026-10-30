@@ -40,7 +40,7 @@ Security Operation Center (SOC) teams therefore require robust detection methods
 ## Tools Used
 | Component                  | Technology                              |
 |----------------------------|-----------------------------------------|
-| Monitored Endpoint         | Windows 10 (VMware Workstation)         |
+| Monitored Endpoint         | Windows 11 (VMware Workstation)         |
 | SIEM Platform              | Splunk Enterprise (host machine)        |
 | Log Forwarding Agent       | Splunk Universal Forwarder              |
 | Endpoint Telemetry         | Sysmon (SwiftOnSecurity configuration)  |
